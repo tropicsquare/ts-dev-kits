@@ -1,8 +1,14 @@
 # TROPIC01 USB Dev Kit
 TROPIC01 objective is trustless, auditable security. 
-USB dongle with TROPIC01 is designed to evaluate systems where SPI is not available. There are number of advantages of using TROPIC01 USB dongle over a standard USB token. For a comprehensive exploration of how TROPIC01 can empower your projects, we invite you to connect directly with our business representatives.
+The TROPIC01's unique design, coupled with its flexible firmware, puts you in complete control. It's built for raw data transfer, empowering your host application to define and manage all key handling and security policies. You can tailor TROPIC01 to fit your exact security architecture and trust models. For a comprehensive exploration of how TROPIC01 can empower your projects, we invite you to connect directly with our business representatives.
 
-## Here's a glimpse into the potential of the TROPIC01 USB Dev Kit:
+<p align="center">
+  <img src="https://github.com/tropicsquare/ts13-dev-kit/blob/TS1302/img/angle.png" alt="Tropic Square TR01 within STM32U5 microcontroller" width="300">
+</p>
+
+# Use Cases
+
+USB dev kit is a platform enabling TROPIC01 evaluation with systems where SPI is not available. Here's a glimpse into the potential of the TROPIC01 USB Dev Kit:
 
 * **FIDO2/WebAuthn Authentication**  
 Improve user identity verification by leveraging robust cryptographic keys and eliminating reliance on vulnerable passwords.
@@ -22,8 +28,6 @@ This guide provides a first look at the TROPIC01 USB Dev Kit's core capabilities
 * **TROPIC01 USB Dongle** - Your dedicated tool for secure development.
 
 * **This instruction guide** - Your immediate document to getting started.
-
-> The TROPIC01's unique design, coupled with its flexible firmware, puts you in complete control. It's built for raw data transfer, empowering your host application to define and manage all key handling and security policies. You can tailor TROPIC01 to fit your exact security architecture and trust models.
 
 ### Prerequisites
 
@@ -150,14 +154,14 @@ Signature verification SUCCEEDED
 ```
 ## Reference Links
 
-* [Firmware repository](https://github.com/tropicsquare/ts13-usb-dev-kit-fw)
+* [Firmware repository](https://github.com/tropicsquare/ts13-usb-dev-kit-fw/tree/ts1302)
 
-* [Hardware repository](https://github.com/tropicsquare/ts13-dev-kit)
+* [Hardware repository](https://github.com/tropicsquare/ts13-dev-kit/tree/TS1302)
 
 * [Application repository: libtropic-util](https://github.com/tropicsquare/libtropic-util)
 
 ## Disclaimer
 
-We are not a company manufacturing USB devices as end-user products. Our current hardware—a USB development kit featuring the Tropic Square TR01 chip—uses the STM32U5 microcontroller. 
-
-For our license disclaimer, please follow this [link](https://github.com/tropicsquare/libtropic/blob/master/LICENSE.md).
+* We are not a company manufacturing USB devices as end-user products.
+* The TS1302 USB development kit featuring the Tropic Square TR01 uses STM32U5 microcontroller. 
+* For our license disclaimer, please follow this [link](https://github.com/tropicsquare/libtropic/blob/master/LICENSE.md).
