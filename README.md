@@ -2,5 +2,5 @@
 
 Development kits for the TROPIC01 secure element 
 
-## TS13 USB DevKits
-More details about [TS13 USB DevKits](ts13-usb-dev-kit.md)
+## TS1302 USB DevKit
+More details about [TS1302 USB DevKit](ts1302-usb-dev-kit.md)
