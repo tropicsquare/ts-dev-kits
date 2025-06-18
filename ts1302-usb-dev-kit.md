@@ -1,10 +1,7 @@
 # TROPIC01 USB Dev Kit
+<img src="https://github.com/tropicsquare/ts13-dev-kit/blob/TS1302/img/angle.png" alt="TROPIC01 next to STM32U5 microcontroller" width="300" align="right">
 TROPIC01 objective is trustless, auditable security. 
 The TROPIC01's unique design, coupled with its flexible firmware, puts you in complete control. It's built for raw data transfer, empowering your host application to define and manage all key handling and security policies. You can tailor TROPIC01 to fit your exact security architecture and trust models. For a comprehensive exploration of how TROPIC01 can empower your projects, we invite you to connect directly with our business representatives.
-
-<p align="center">
-  <img src="https://github.com/tropicsquare/ts13-dev-kit/blob/TS1302/img/angle.png" alt="Tropic Square TR01 within STM32U5 microcontroller" width="300">
-</p>
 
 # Use Cases
 
