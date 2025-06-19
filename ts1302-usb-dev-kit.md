@@ -44,7 +44,9 @@ Follow these steps to establish communication with your USB dongle:
 
 1. Before plugging your USB dongle into the USB port, execute the following command:
 
-```sudo dmesg -w'```
+```
+sudo dmesg -w
+```
 
 2. Plug your USB dongle in. The device enumerates in your system.
 ```
@@ -60,35 +62,28 @@ Follow these steps to establish communication with your USB dongle:
 > ttyACM0: USB ACM device, this means that USB dongle is enumerated as `/dev/ttyACM0`.
 
 3. To obtain tools and documentation, run:  
-`git clone https://github.com/tropicsquare/libtropic-util.git`
-4. Move into libtropic-util directory  
-`cd libtropic-util/`
-5. Update modules  
-`git submodule update --init --recursive`
-6. To compile, run:  
+```
+git clone https://github.com/tropicsquare/libtropic-util.git
+```
+5. Move into libtropic-util directory  
+```
+cd libtropic-util/
+```
+7. Update modules  
+```
+git submodule update --init --recursive
+```
+9. To compile, run:  
 ```
 mkdir build
 cd build
 cmake -DUSB_DONGLE=1 ..
 make
 ```
-7. Execute from bash and use for the direct access to TROPIC01 features. 
+7. Execute from bash and use for the direct access to TROPIC01 features. Refer to the [libtropic-util](https://github.com/tropicsquare/libtropic-util?tab=readme-ov-file#usb-dongle-with-tropic01-chip) document for the expected output. 
 ```
-$ ./lt-util
+./lt-util
 
-Usage (first parameter is serialport with usb dongle, update it if needed):
-
-	./lt-util /dev/ttyACM0 -r    [count] [file]            # Random  - Get 1-255 random bytes and store them into file
-	./lt-util /dev/ttyACM0 -e -i [slot]  [file]            # ECC key - Install private key from keypair.bin into a given slot
-	./lt-util /dev/ttyACM0 -e -g [slot]                    # ECC key - Generate private key in a given slot
-	./lt-util /dev/ttyACM0 -e -d [slot]  [file]            # ECC key - Download public key from given slot into file
-	./lt-util /dev/ttyACM0 -e -c [slot]                    # ECC key - Clear given ECC slot
-	./lt-util /dev/ttyACM0 -e -s [slot]  [file1] [file2]   # ECC key - Sign content of file1 (max size is 4095B) with key from a given slot and store resulting signature into file2
-	./lt-util /dev/ttyACM0 -m -s [slot]  [file]            # Memory  - Store content of filename (max size is 444B)  into memory slot
-	./lt-util /dev/ttyACM0 -m -r [slot]  [file]            # Memory  - Read content of memory slot (max size is 444B) into filename
-	./lt-util /dev/ttyACM0 -m -e [slot]                    # Memory  - Erase content of memory slot
-
-	 All commands return 0 if success, otherwise 1
 ```
 ### Example of use
 
@@ -98,7 +93,9 @@ In this example, we want to ensure that the system works correctly. Test depende
 
 2. Run test command:
 
-`./run_tests_usb.sh`
+```
+./run_tests_usb.sh
+```
 
 * Red LED will blink multiple times on USB dongle. 
 
