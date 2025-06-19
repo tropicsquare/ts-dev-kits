@@ -65,19 +65,19 @@ sudo dmesg -w
 ```
 git clone https://github.com/tropicsquare/libtropic-util.git
 ```
-5. Move into libtropic-util directory  
+4. Move into libtropic-util directory  
 ```
 cd libtropic-util/
 ```
-7. Update modules  
+5. Update modules  
 ```
 git submodule update --init --recursive
 ```
-9. To compile, run:  
+6. To compile, run:  
 ```
 mkdir build
 cd build
-cmake -DUSB_DONGLE=1 ..
+cmake -DUSB_DONGLE_TS1302=1 ..
 make
 ```
 7. Execute from bash and use for the direct access to TROPIC01 features. Refer to the [libtropic-util](https://github.com/tropicsquare/libtropic-util?tab=readme-ov-file#usb-dongle-with-tropic01-chip) document for the expected output. 
