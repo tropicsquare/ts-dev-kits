@@ -77,7 +77,7 @@ git submodule update --init --recursive
 ```
 mkdir build
 cd build
-cmake -DUSB_DONGLE_TS1302=1 ..
+cmake -DUSB_DONGLE_TS1302=1
 make
 ```
 7. Execute from bash and use for the direct access to TROPIC01 features. Refer to the [libtropic-util](https://github.com/tropicsquare/libtropic-util?tab=readme-ov-file#usb-dongle-with-tropic01-chip) document for the expected output. 
