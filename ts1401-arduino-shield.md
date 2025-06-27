@@ -32,6 +32,6 @@ Quickguide for the TROPIC01 Arduino shield TS14 dev kit is under developement.
 
 ## Disclaimer
 
-* We are not a company manufacturing USB devices as end-user products.
+* We are not a company manufacturing Arduino devices as end-user products.
 * The TS1401 Arduino shield TS14 development kit featuring the Tropic Square TR01 uses Arduino extension board. 
 * For our license disclaimer, please follow this [link](https://github.com/tropicsquare/libtropic/blob/master/LICENSE.md).
