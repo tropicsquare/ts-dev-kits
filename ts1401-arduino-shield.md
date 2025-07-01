@@ -18,7 +18,7 @@ Quickguide for the TROPIC01 Arduino shield TS14 dev kit is under developement.
 ## Reference Links
 
 * Hardware repository will be released soon
-* [Application repository: libtropic-util](https://github.com/tropicsquare/libtropic-util)
+* [Application repository: libtropic-stm32](https://github.com/tropicsquare/libtropic-stm32)
 
 ## Disclaimer
 
