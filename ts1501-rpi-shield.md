@@ -18,7 +18,7 @@ Quickguide for the TROPIC01 RPi Shield dev kit is under developement.
 
 ## Reference Links
 
-* Hardware repository will be released soon
+* [Hardware repository](https://github.com/tropicsquare/ts15-tropic01-rpi-shield/tree/TS1501)
 * [Application repository: libtropic-util](https://github.com/tropicsquare/libtropic-util)
 
 ## Disclaimer
